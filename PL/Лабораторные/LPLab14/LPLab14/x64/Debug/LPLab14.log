@@ -1,0 +1,4 @@
+﻿  Out.cpp
+C:\Users\Dmitry\Desktop\labrab\ЯП\Лабораторные\LPLab14\LPLab14\Out.cpp(39,14): warning C4101:  type: неиспользованная локальная переменная
+C:\Users\Dmitry\Desktop\labrab\ЯП\Лабораторные\LPLab14\LPLab14\Out.cpp(38,18): warning C4101:  datatype: неиспользованная локальная переменная
+  LPLab14.vcxproj -> C:\Users\Dmitry\Desktop\labrab\ЯП\Лабораторные\LPLab14\x64\Debug\LPLab14.exe

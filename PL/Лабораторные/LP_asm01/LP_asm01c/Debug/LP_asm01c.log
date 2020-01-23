@@ -1,0 +1,2 @@
+﻿  LP_asm01c.cpp
+LINK : fatal error LNK1104: не удается открыть файл "..\Debug\LP_asm01a.lib"

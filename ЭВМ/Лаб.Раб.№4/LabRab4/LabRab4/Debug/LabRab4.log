@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\Dmitry\Desktop\labrab\ЭВМ\Лаб.Раб.№4\LabRab4\LabRab4\Source.cpp(9,1): warning C4326:  возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Dmitry\Desktop\labrab\ЭВМ\Лаб.Раб.№4\LabRab4\LabRab4\Source.cpp(21,47): warning C4129:   : неизвестная escape-последовательность
+C:\Users\Dmitry\Desktop\labrab\ЭВМ\Лаб.Раб.№4\LabRab4\LabRab4\Source.cpp(30,19): warning C4129:   : неизвестная escape-последовательность
+C:\Users\Dmitry\Desktop\labrab\ЭВМ\Лаб.Раб.№4\LabRab4\LabRab4\Source.cpp(53,3): warning C4129:   : неизвестная escape-последовательность
+C:\Users\Dmitry\Desktop\labrab\ЭВМ\Лаб.Раб.№4\LabRab4\LabRab4\Source.cpp(80,3): warning C4129:   : неизвестная escape-последовательность
+  LabRab4.vcxproj -> C:\Users\Dmitry\Desktop\labrab\ЭВМ\Лаб.Раб.№4\LabRab4\Debug\LabRab4.exe

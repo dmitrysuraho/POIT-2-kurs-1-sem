@@ -1,0 +1,7 @@
+Тест:без ошибок
+---- Протокол ---- Дата: 18.12.2019 16:37:50 ----
+---- Параметры ----
+-in: C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\in.txt
+-out: C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\out.txt
+-log: C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\log.txt
+Ошибка 113: Нераспознанная лексема, строка: 28, позиция: 108

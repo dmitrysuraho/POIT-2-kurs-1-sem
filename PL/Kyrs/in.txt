@@ -1,0 +1,43 @@
+function unint PF(unint X)
+{
+ident unint Y;
+ident unint L;
+L = RandNum();
+out L;
+Y = (L + X) * 2;
+Y = Y << 1;
+end Y;
+};
+
+function unint SF(char M)
+{
+ident unint N;
+N = 2 + Unicode(M) * 3;
+N = N >> 1;
+end N;
+};
+
+main
+{
+ident unint A;
+ident unint B;
+ident char C;
+ident unint D;
+ident unint E;
+ident unint F;
+A = -5;
+for(A)
+[
+A = A + 10;
+]
+B = 4;
+C = "f";
+D = PF(B);
+E = SF(C);
+F = x0ex;
+out A;
+out D;
+out E;
+out F;
+end 0;
+};

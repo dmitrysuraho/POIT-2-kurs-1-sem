@@ -1,0 +1,7 @@
+﻿  Lab8.cpp
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№8\Lab8\Lab8\Lab8.cpp(89,21): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№8\Lab8\Lab8\Lab8.cpp(93,23): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№8\Lab8\Lab8\Lab8.cpp(148,32): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№8\Lab8\Lab8\Lab8.cpp(108,11): warning C4101: mod: неиспользованная локальная переменная
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№8\Lab8\Lab8\Lab8.cpp(108,6): warning C4101: bin: неиспользованная локальная переменная
+  Lab8.vcxproj -> C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№8\Lab8\Debug\Lab8.exe

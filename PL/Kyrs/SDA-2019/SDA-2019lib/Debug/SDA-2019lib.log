@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  SDA-2019lib.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019lib\SDA-2019lib.cpp(19,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  SDA-2019lib.vcxproj -> C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\Debug\SDA-2019lib.lib

@@ -1,0 +1,6 @@
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab9\LabRab9\bin\Debug\LabRab9.exe.config
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab9\LabRab9\bin\Debug\LabRab9.exe
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab9\LabRab9\bin\Debug\LabRab9.pdb
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab9\LabRab9\obj\Debug\LabRab9.csprojAssemblyReference.cache
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab9\LabRab9\obj\Debug\LabRab9.exe
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab9\LabRab9\obj\Debug\LabRab9.pdb

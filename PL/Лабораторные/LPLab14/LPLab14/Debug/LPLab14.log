@@ -1,0 +1,21 @@
+﻿  Error.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\LPLab14\Error.cpp(42,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  FST.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\LPLab14\Error.cpp(53,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  GRB.cpp
+  In.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\LPLab14\FST.cpp(61,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  IT.cpp
+  LEX.cpp
+  Log.cpp
+  LT.cpp
+  Main.cpp
+  MFST.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\LPLab14\In.cpp(24,16): warning C4101: code: неиспользованная локальная переменная
+  Out.cpp
+  Parm.cpp
+  PolishNotation.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\LPLab14\MFST.cpp(226,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  Создание кода...
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\LPLab14\PolishNotation.cpp(11,7): warning C4101: lex: неиспользованная локальная переменная
+  LPLab14.vcxproj -> C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LPLab14\Debug\LPLab14.exe

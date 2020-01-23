@@ -1,0 +1,776 @@
+Name: svchost
+Id: 1292
+Priority: 8
+
+Name: ctfmon
+Id: 10340
+Priority: 13
+Start time: 23.12.2019 14:35:31
+
+Name: atieclxx
+Id: 10864
+Priority: 8
+
+Name: ServiceHub.RoslynCodeAnalysisService32
+Id: 9904
+Priority: 6
+Start time: 23.12.2019 14:39:11
+
+Name: svchost
+Id: 2576
+Priority: 8
+
+Name: svchost
+Id: 3868
+Priority: 8
+
+Name: RadeonSettings
+Id: 3436
+Priority: 8
+Start time: 23.12.2019 14:35:46
+
+Name: SkypeBackgroundHost
+Id: 2140
+Priority: 8
+Start time: 23.12.2019 14:36:01
+
+Name: svchost
+Id: 5708
+Priority: 8
+
+Name: ServiceHub.Host.CLR.x86
+Id: 864
+Priority: 8
+Start time: 23.12.2019 14:39:54
+
+Name: fmapp
+Id: 10748
+Priority: 8
+Start time: 23.12.2019 14:36:15
+
+Name: svchost
+Id: 6868
+Priority: 8
+
+Name: prevhost
+Id: 10500
+Priority: 8
+Start time: 23.12.2019 14:41:43
+
+Name: svchost
+Id: 2120
+Priority: 8
+
+Name: ServiceHub.SettingsHost
+Id: 2980
+Priority: 8
+Start time: 23.12.2019 14:39:35
+
+Name: svchost
+Id: 9444
+Priority: 8
+
+Name: RuntimeBroker
+Id: 11164
+Priority: 8
+Start time: 23.12.2019 14:37:16
+
+Name: spoolsv
+Id: 3836
+Priority: 8
+
+Name: RuntimeBroker
+Id: 6420
+Priority: 8
+Start time: 23.12.2019 14:40:50
+
+Name: GameCenter
+Id: 7280
+Priority: 8
+Start time: 23.12.2019 14:36:19
+
+Name: svchost
+Id: 1676
+Priority: 8
+
+Name: svchost
+Id: 6416
+Priority: 8
+
+Name: NisSrv
+Id: 812
+Priority: 8
+
+Name: svchost
+Id: 1240
+Priority: 8
+
+Name: RuntimeBroker
+Id: 9428
+Priority: 8
+Start time: 23.12.2019 14:35:59
+
+Name: conhost
+Id: 8132
+Priority: 8
+Start time: 23.12.2019 14:38:54
+
+Name: atiesrxx
+Id: 2528
+Priority: 8
+
+Name: igfxCUIService
+Id: 2956
+Priority: 8
+
+Name: Microsoft.ServiceHub.Controller
+Id: 4244
+Priority: 8
+Start time: 23.12.2019 14:38:19
+
+Name: RuntimeBroker
+Id: 716
+Priority: 8
+Start time: 23.12.2019 14:36:07
+
+Name: svchost
+Id: 2748
+Priority: 8
+
+Name: svchost
+Id: 1652
+Priority: 8
+
+Name: lsass
+Id: 788
+Priority: 9
+
+Name: SecurityHealthService
+Id: 6892
+Priority: 8
+
+Name: svchost
+Id: 5948
+Priority: 8
+
+Name: smss
+Id: 344
+Priority: 11
+
+Name: svchost
+Id: 9472
+Priority: 8
+Start time: 23.12.2019 14:35:31
+
+Name: svchost
+Id: 1204
+Priority: 8
+
+Name: svchost
+Id: 3788
+Priority: 8
+
+Name: devenv
+Id: 6804
+Priority: 8
+Start time: 23.12.2019 14:37:38
+
+Name: svchost
+Id: 2060
+Priority: 8
+
+Name: svchost
+Id: 3352
+Priority: 8
+
+Name: dasHost
+Id: 2284
+Priority: 8
+
+Name: conhost
+Id: 7660
+Priority: 8
+Start time: 23.12.2019 14:38:20
+
+Name: Monitor
+Id: 1728
+Priority: 8
+Start time: 23.12.2019 14:35:32
+
+Name: LockApp
+Id: 760
+Priority: 8
+Start time: 23.12.2019 15:03:28
+
+Name: igfxEM
+Id: 6360
+Priority: 8
+Start time: 23.12.2019 14:35:36
+
+Name: fontdrvhost
+Id: 8616
+Priority: 8
+
+Name: svchost
+Id: 2044
+Priority: 8
+
+Name: svchost
+Id: 3760
+Priority: 8
+
+Name: svchost
+Id: 2896
+Priority: 8
+
+Name: svchost
+Id: 4188
+Priority: 8
+
+Name: svchost
+Id: 5908
+Priority: 8
+
+Name: RuntimeBroker
+Id: 10644
+Priority: 8
+Start time: 23.12.2019 14:40:46
+
+Name: SearchFilterHost
+Id: 1040
+Priority: 4
+
+Name: conhost
+Id: 7284
+Priority: 8
+Start time: 23.12.2019 14:39:35
+
+Name: CAudioFilterAgent64
+Id: 11068
+Priority: 8
+Start time: 23.12.2019 14:36:15
+
+Name: svchost
+Id: 5464
+Priority: 8
+
+Name: Memory Compression
+Id: 2876
+Priority: 8
+
+Name: SettingSyncHost
+Id: 5888
+Priority: 6
+Start time: 23.12.2019 14:36:04
+
+Name: fontdrvhost
+Id: 908
+Priority: 8
+
+Name: svchost
+Id: 7236
+Priority: 8
+
+Name: RealTimeProtector
+Id: 708
+Priority: 8
+Start time: 23.12.2019 14:35:39
+
+Name: svchost
+Id: 4144
+Priority: 8
+
+Name: svchost
+Id: 1120
+Priority: 8
+
+Name: svchost
+Id: 2412
+Priority: 8
+
+Name: SynTPEnhService
+Id: 2840
+Priority: 8
+
+Name: RuntimeBroker
+Id: 9304
+Priority: 8
+Start time: 23.12.2019 15:47:29
+
+Name: PresentationFontCache
+Id: 680
+Priority: 8
+
+Name: svchost
+Id: 1972
+Priority: 8
+
+Name: explorer
+Id: 4988
+Priority: 8
+Start time: 23.12.2019 14:35:37
+
+Name: conhost
+Id: 10740
+Priority: 8
+Start time: 23.12.2019 16:18:59
+
+Name: svchost
+Id: 1968
+Priority: 8
+
+Name: svchost
+Id: 1104
+Priority: 8
+
+Name: RuntimeBroker
+Id: 7132
+Priority: 8
+Start time: 23.12.2019 14:35:55
+
+Name: ShellExperienceHost
+Id: 1052
+Priority: 8
+Start time: 23.12.2019 15:30:48
+
+Name: csrss
+Id: 5832
+Priority: 13
+
+Name: svchost
+Id: 3676
+Priority: 8
+
+Name: HxTsr
+Id: 2812
+Priority: 8
+Start time: 23.12.2019 14:37:16
+
+Name: ServiceHub.IdentityHost
+Id: 7120
+Priority: 8
+Start time: 23.12.2019 14:39:31
+
+Name: RuntimeBroker
+Id: 1512
+Priority: 8
+Start time: 23.12.2019 15:03:30
+
+Name: ASCTray
+Id: 8836
+Priority: 8
+Start time: 23.12.2019 14:36:16
+
+Name: conhost
+Id: 2368
+Priority: 8
+Start time: 23.12.2019 14:39:54
+
+Name: svchost
+Id: 4952
+Priority: 8
+
+Name: svchost
+Id: 4520
+Priority: 8
+
+Name: wininit
+Id: 640
+Priority: 13
+
+Name: svchost
+Id: 1500
+Priority: 8
+
+Name: SynTPHelper
+Id: 1068
+Priority: 10
+Start time: 23.12.2019 14:35:50
+
+Name: svchost
+Id: 1928
+Priority: 8
+
+Name: svchost
+Id: 2788
+Priority: 8
+
+Name: svchost
+Id: 4080
+Priority: 8
+
+Name: svchost
+Id: 1924
+Priority: 8
+
+Name: svchost
+Id: 1492
+Priority: 8
+
+Name: conhost
+Id: 6504
+Priority: 8
+Start time: 23.12.2019 14:38:45
+
+Name: winlogon
+Id: 10108
+Priority: 13
+
+Name: SearchUI
+Id: 2544
+Priority: 8
+Start time: 23.12.2019 14:35:56
+
+Name: conhost
+Id: 9944
+Priority: 8
+Start time: 23.12.2019 14:39:11
+
+Name: svchost
+Id: 1912
+Priority: 8
+
+Name: SystemSettingsBroker
+Id: 7388
+Priority: 8
+Start time: 23.12.2019 16:03:35
+
+Name: svchost
+Id: 1764
+Priority: 8
+
+Name: conhost
+Id: 8372
+Priority: 8
+Start time: 23.12.2019 14:39:32
+
+Name: svchost
+Id: 2764
+Priority: 8
+
+Name: ServiceHub.Host.CLR.x86
+Id: 8796
+Priority: 8
+Start time: 23.12.2019 14:39:28
+
+Name: sihost
+Id: 6208
+Priority: 8
+Start time: 23.12.2019 14:35:31
+
+Name: HxAccounts
+Id: 4052
+Priority: 8
+Start time: 23.12.2019 14:37:25
+
+Name: svchost
+Id: 3620
+Priority: 8
+
+Name: DolbyDAX2API
+Id: 4044
+Priority: 8
+
+Name: svchost
+Id: 1888
+Priority: 8
+
+Name: svchost
+Id: 4472
+Priority: 8
+
+Name: WinStore.App
+Id: 4040
+Priority: 8
+Start time: 23.12.2019 15:47:29
+
+Name: ServiceHub.VSDetouredHost
+Id: 10912
+Priority: 8
+Start time: 23.12.2019 14:38:53
+
+Name: SynTPEnh
+Id: 6624
+Priority: 10
+Start time: 23.12.2019 14:35:29
+
+Name: conhost
+Id: 10932
+Priority: 8
+Start time: 23.12.2019 14:39:57
+
+Name: svchost
+Id: 7052
+Priority: 8
+
+Name: PerfWatson2
+Id: 7912
+Priority: 8
+Start time: 23.12.2019 14:37:58
+
+Name: svchost
+Id: 8772
+Priority: 8
+Start time: 23.12.2019 14:35:42
+
+Name: svchost
+Id: 5320
+Priority: 8
+
+Name: MsMpEng
+Id: 4456
+Priority: 8
+
+Name: cmd
+Id: 5992
+Priority: 8
+Start time: 23.12.2019 16:18:59
+
+Name: svchost
+Id: 1432
+Priority: 8
+
+Name: CxAudMsg64
+Id: 4016
+Priority: 8
+
+Name: svchost
+Id: 1860
+Priority: 8
+
+Name: hasplms
+Id: 2320
+Priority: 8
+
+Name: GameCenter
+Id: 9180
+Priority: 8
+Start time: 23.12.2019 14:36:39
+
+Name: svchost
+Id: 2244
+Priority: 8
+
+Name: svchost
+Id: 8312
+Priority: 8
+Start time: 23.12.2019 14:35:31
+
+Name: svchost
+Id: 984
+Priority: 8
+
+Name: svchost
+Id: 4000
+Priority: 8
+
+Name: ApplicationFrameHost
+Id: 8308
+Priority: 8
+Start time: 23.12.2019 14:37:13
+
+Name: SearchIndexer
+Id: 6580
+Priority: 8
+
+Name: svchost
+Id: 2268
+Priority: 8
+
+Name: ServiceHub.ThreadedWaitDialog
+Id: 1836
+Priority: 8
+Start time: 23.12.2019 14:38:40
+
+Name: svchost
+Id: 3128
+Priority: 8
+
+Name: conhost
+Id: 5712
+Priority: 8
+Start time: 23.12.2019 16:18:59
+
+Name: FoxitReader
+Id: 10020
+Priority: 8
+Start time: 23.12.2019 14:41:45
+
+Name: csrss
+Id: 536
+Priority: 13
+
+Name: SkypeApp
+Id: 964
+Priority: 8
+Start time: 23.12.2019 14:40:33
+
+Name: AdminService
+Id: 3980
+Priority: 8
+
+Name: svchost
+Id: 1824
+Priority: 8
+
+Name: SgrmBroker
+Id: 5700
+Priority: 8
+
+Name: RuntimeBroker
+Id: 11080
+Priority: 8
+Start time: 23.12.2019 15:30:49
+
+Name: YourPhone
+Id: 7848
+Priority: 8
+Start time: 23.12.2019 14:40:33
+
+Name: NetworkLicenseServer
+Id: 3968
+Priority: 8
+
+Name: Registry
+Id: 88
+Priority: 8
+
+Name: svchost
+Id: 1808
+Priority: 8
+
+Name: conhost
+Id: 9520
+Priority: 8
+Start time: 23.12.2019 14:39:31
+
+Name: taskhostw
+Id: 9988
+Priority: 8
+Start time: 23.12.2019 14:35:32
+
+Name: svchost
+Id: 7400
+Priority: 8
+
+Name: svchost
+Id: 1364
+Priority: 8
+
+Name: svchost
+Id: 2224
+Priority: 8
+
+Name: svchost
+Id: 64
+Priority: 8
+
+Name: svchost
+Id: 1356
+Priority: 8
+
+Name: ServiceHub.TestWindowStoreHost
+Id: 7960
+Priority: 8
+Start time: 23.12.2019 14:39:57
+
+Name: svchost
+Id: 5664
+Priority: 8
+
+Name: svchost
+Id: 2644
+Priority: 8
+
+Name: svchost
+Id: 488
+Priority: 8
+
+Name: svchost
+Id: 7380
+Priority: 8
+Start time: 23.12.2019 14:37:29
+
+Name: StartMenuExperienceHost
+Id: 9024
+Priority: 8
+Start time: 23.12.2019 14:35:51
+
+Name: svchost
+Id: 1340
+Priority: 8
+
+Name: svchost
+Id: 2632
+Priority: 8
+
+Name: HxOutlook
+Id: 10820
+Priority: 8
+Start time: 23.12.2019 14:37:13
+
+Name: svchost
+Id: 5212
+Priority: 8
+
+Name: svchost
+Id: 1332
+Priority: 8
+
+Name: dwm
+Id: 11244
+Priority: 13
+
+Name: svchost
+Id: 3484
+Priority: 8
+
+Name: SearchProtocolHost
+Id: 8224
+Priority: 4
+
+Name: svchost
+Id: 896
+Priority: 8
+
+Name: services
+Id: 776
+Priority: 9
+
+Name: svchost
+Id: 3476
+Priority: 8
+
+Name: ASCService
+Id: 8208
+Priority: 8
+
+Name: svchost
+Id: 2108
+Priority: 8
+
+Name: svchost
+Id: 1304
+Priority: 8
+
+Name: svchost
+Id: 3884
+Priority: 8
+
+Name: System
+Id: 4
+Priority: 8
+
+Name: svchost
+Id: 4312
+Priority: 8
+
+Name: LabRab15
+Id: 9052
+Priority: 8
+Start time: 23.12.2019 16:19:00
+
+Name: Idle
+Id: 0
+Priority: 0
+

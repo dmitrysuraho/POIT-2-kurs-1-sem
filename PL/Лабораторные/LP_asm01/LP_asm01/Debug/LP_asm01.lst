@@ -1,0 +1,118 @@
+Microsoft (R) Macro Assembler Version 14.23.28106.4	    11/28/19 10:30:53
+LP_asm01.asm						     Page 1 - 1
+
+
+				.586P
+				.MODEL FLAT, STDCALL
+
+				ExitProcess PROTO : DWORD
+				getmin PROTO: DWORD, : DWORD
+
+				.STACK 4096
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+ 00000000 0000000B		ARR     DWORD 11, 44, 10, 39, 5, 22, 12, 100, 50, 33
+	   0000002C
+	   0000000A
+	   00000027
+	   00000005
+	   00000016
+	   0000000C
+	   00000064
+	   00000032
+	   00000021
+ 00000028 0000000A		NUM     DWORD 10
+ 0000002C 00000000		MIN     DWORD ?
+
+ 00000000			.CODE
+
+ 00000000			getmin PROC array : DWORD, numer : DWORD
+ 00000003  8B 5D 08		   mov ebx, array
+ 00000006  8B 03		   mov eax, [ebx]
+ 00000008  A3 0000002C R	   mov MIN, eax
+ 0000000D  8B 4D 0C		   mov ecx, numer
+ 00000010			   CYCLE:
+ 00000010  8B 13		   mov edx, [ebx]
+ 00000012  3B 15 0000002C R	   cmp edx, MIN
+ 00000018  77 02		   ja fa
+ 0000001A  72 07		   jb fb
+ 0000001C			fa:
+ 0000001C  83 C3 04		   add ebx, 4
+ 0000001F  E2 EF		   LOOP  CYCLE
+ 00000021  EB 0E		   jmp fin
+ 00000023			fb:
+ 00000023  8B 03		   mov eax, [ebx]
+ 00000025  A3 0000002C R	   mov MIN, eax
+ 0000002A  83 C3 04		   add ebx, 4
+ 0000002D  E2 E1		   LOOP  CYCLE
+ 0000002F  EB 00		   jmp fin
+
+ 00000031			fin:                ;«¿œ»—¿“‹ ¬ –≈√»—“– –≈«”À‹“¿“, ¬ Àﬁ¡Œ…
+				   ret
+ 00000035			getmin ENDP
+
+
+ 00000035			main PROC
+ 00000035			START :
+ 00000035  FF 35 00000028 R	   push NUM
+ 0000003B  68 00000000 R	   push offset ARR
+ 00000040  E8 FFFFFFBB		   call getmin
+ 00000045  FF 35 0000002C R	   push MIN
+ 0000004B  E8 00000000 E	   call ExitProcess
+ 00000050			main ENDP
+
+				end main
+Microsoft (R) Macro Assembler Version 14.23.28106.4	    11/28/19 10:30:53
+LP_asm01.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000030 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000050 Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+getmin . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000035 Public STDCALL
+  array  . . . . . . . . . . . .	DWord	 bp + 00000008
+  numer  . . . . . . . . . . . .	DWord	 bp + 0000000C
+  CYCLE  . . . . . . . . . . . .	L Near	 00000010 _TEXT	
+  fa . . . . . . . . . . . . . .	L Near	 0000001C _TEXT	
+  fb . . . . . . . . . . . . . .	L Near	 00000023 _TEXT	
+  fin  . . . . . . . . . . . . .	L Near	 00000031 _TEXT	
+main . . . . . . . . . . . . . .	P Near	 00000035 _TEXT	Length= 0000001B Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000035 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+ARR  . . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+MIN  . . . . . . . . . . . . . .	DWord	 0000002C _DATA	
+NUM  . . . . . . . . . . . . . .	DWord	 00000028 _DATA	
+
+	   0 Warnings
+	   0 Errors

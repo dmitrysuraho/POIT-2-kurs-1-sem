@@ -1,0 +1,11 @@
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\bin\Debug\netcoreapp2.1\LabRab4.deps.json
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\bin\Debug\netcoreapp2.1\LabRab4.runtimeconfig.json
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\bin\Debug\netcoreapp2.1\LabRab4.runtimeconfig.dev.json
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\bin\Debug\netcoreapp2.1\LabRab4.dll
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\bin\Debug\netcoreapp2.1\LabRab4.pdb
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\obj\Debug\netcoreapp2.1\LabRab4.csprojAssemblyReference.cache
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\obj\Debug\netcoreapp2.1\LabRab4.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\obj\Debug\netcoreapp2.1\LabRab4.AssemblyInfoInputs.cache
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\obj\Debug\netcoreapp2.1\LabRab4.AssemblyInfo.cs
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\obj\Debug\netcoreapp2.1\LabRab4.dll
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab4\LabRab4\obj\Debug\netcoreapp2.1\LabRab4.pdb

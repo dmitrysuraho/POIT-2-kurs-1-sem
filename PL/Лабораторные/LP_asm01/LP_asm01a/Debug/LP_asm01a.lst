@@ -1,0 +1,120 @@
+Microsoft (R) Macro Assembler Version 14.23.28106.4	    11/28/19 10:31:14
+LP_asm01a.asm						     Page 1 - 1
+
+
+				.586P
+				.MODEL FLAT, stdcall
+
+ 00000000			.CODE
+
+ 00000000			asm24l PROC parm:dword
+ 00000003  8B 45 08		 mov eax, parm
+ 00000006  F7 D8		 neg eax
+				 ret
+ 0000000C			 asm24l ENDP
+
+ 0000000C			getmin PROC array : DWORD, numer : DWORD
+ 0000000F  8B 5D 08		mov ebx, array
+ 00000012  8B 03		mov eax, [ebx]
+ 00000014  8B 4D 0C		mov ecx, numer
+ 00000017			CYCLE:
+ 00000017  8B 13		mov edx, [ebx]
+ 00000019  3B D0		cmp edx, eax
+ 0000001B  77 02		ja fa
+ 0000001D  72 07		jb fb
+
+ 0000001F			fa:
+ 0000001F  83 C3 04		add ebx, 4
+ 00000022  E2 F3		LOOP CYCLE
+ 00000024  EB 09		jmp fin
+
+ 00000026			fb:
+ 00000026  8B 03		mov eax, [ebx]
+ 00000028  83 C3 04		add ebx, 4
+ 0000002B  E2 EA		LOOP CYCLE
+ 0000002D  EB 00		jmp fin
+
+ 0000002F			fin:
+				ret
+ 00000033			getmin ENDP
+
+
+ 00000033			getmax PROC array : DWORD, numer : DWORD
+ 00000036  8B 5D 08		mov ebx, array
+ 00000039  8B 03		mov eax, [ebx]
+ 0000003B  8B 4D 0C		mov ecx, numer
+ 0000003E			CYCLE:
+ 0000003E  8B 13		mov edx, [ebx]
+ 00000040  3B D0		cmp edx, eax
+ 00000042  77 02		ja fa
+ 00000044  72 09		jb fb
+
+ 00000046			fa:
+ 00000046  8B 03		mov eax, [ebx]
+ 00000048  83 C3 04		add ebx, 4
+ 0000004B  E2 F1		LOOP CYCLE
+ 0000004D  EB 07		jmp fin
+
+ 0000004F			fb:
+ 0000004F  83 C3 04		add ebx, 4
+ 00000052  E2 EA		LOOP CYCLE
+ 00000054  EB 00		jmp fin
+
+ 00000056			fin:
+				ret
+ 0000005A			getmax ENDP
+
+				end
+Microsoft (R) Macro Assembler Version 14.23.28106.4	    11/28/19 10:31:14
+LP_asm01a.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000005A Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+asm24l . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000000C Public STDCALL
+  parm . . . . . . . . . . . . .	DWord	 bp + 00000008
+getmax . . . . . . . . . . . . .	P Near	 00000033 _TEXT	Length= 00000027 Public STDCALL
+  array  . . . . . . . . . . . .	DWord	 bp + 00000008
+  numer  . . . . . . . . . . . .	DWord	 bp + 0000000C
+  CYCLE  . . . . . . . . . . . .	L Near	 0000003E _TEXT	
+  fa . . . . . . . . . . . . . .	L Near	 00000046 _TEXT	
+  fb . . . . . . . . . . . . . .	L Near	 0000004F _TEXT	
+  fin  . . . . . . . . . . . . .	L Near	 00000056 _TEXT	
+getmin . . . . . . . . . . . . .	P Near	 0000000C _TEXT	Length= 00000027 Public STDCALL
+  array  . . . . . . . . . . . .	DWord	 bp + 00000008
+  numer  . . . . . . . . . . . .	DWord	 bp + 0000000C
+  CYCLE  . . . . . . . . . . . .	L Near	 00000017 _TEXT	
+  fa . . . . . . . . . . . . . .	L Near	 0000001F _TEXT	
+  fb . . . . . . . . . . . . . .	L Near	 00000026 _TEXT	
+  fin  . . . . . . . . . . . . .	L Near	 0000002F _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+
+	   0 Warnings
+	   0 Errors

@@ -1,0 +1,9 @@
+Name: LabRab15.exe
+
+Configuration:
+Conficuration file name: C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\bin\Debug\LabRab15.exe.Config
+
+Assemblies:
+mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+LabRab15, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089

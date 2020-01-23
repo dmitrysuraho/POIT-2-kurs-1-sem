@@ -1,0 +1,6 @@
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\bin\Debug\LabRab15.exe.config
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\bin\Debug\LabRab15.exe
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\bin\Debug\LabRab15.pdb
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\obj\Debug\LabRab15.csprojAssemblyReference.cache
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\obj\Debug\LabRab15.exe
+C:\Users\Dmitry\Desktop\labrab\ООП\Лабораторные\LabRab15\LabRab15\obj\Debug\LabRab15.pdb

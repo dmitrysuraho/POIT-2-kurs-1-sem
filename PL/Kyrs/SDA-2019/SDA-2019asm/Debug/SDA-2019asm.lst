@@ -1,0 +1,223 @@
+Microsoft (R) Macro Assembler Version 14.23.28106.4	    12/18/19 00:34:44
+SDA-2019asm.asm						     Page 1 - 1
+
+
+				.586
+				.MODEL FLAT, stdcall
+				includelib libucrt.lib
+				includelib kernel32.lib
+				ExitProcess PROTO : DWORD
+
+				Unicode PROTO: DWORD
+				RandNum PROTO
+				WriteInConsoleChar PROTO: DWORD
+				WriteInConsoleUnint PROTO: DWORD
+
+				PF PROTO: DWORD
+				SF PROTO: DWORD
+
+				.STACK 8192
+
+ 00000000			.CONST
+
+ 00000000 00000002			L0 DWORD 2
+ 00000004 00000001			L1 DWORD 1
+ 00000008 00000003			L2 DWORD 3
+ 0000000C 00000001			L3 DWORD 01h
+ 00000010 00000005			L4 DWORD 5
+ 00000014 0000000A			L5 DWORD 10
+ 00000018 00000004			L6 DWORD 4
+ 0000001C 00000066			L7 DWORD "f", 0
+	   00000000
+ 00000024 0000000E			L8 DWORD 0eh
+ 00000028 00000000			L9 DWORD 0
+
+ 00000000			.DATA
+
+ 00000000 00000000			ret_PF DWORD ?
+ 00000004 00000000			ret_SF DWORD ?
+ 00000008 00000000			PFY DWORD ?
+ 0000000C 00000000			PFL DWORD ?
+ 00000010 00000000			SFN DWORD ?
+ 00000014 00000000			mainA DWORD ?
+ 00000018 00000000			mainB DWORD ?
+ 0000001C 00000000			mainC DWORD ?
+ 00000020 00000000			mainD DWORD ?
+ 00000024 00000000			mainE DWORD ?
+ 00000028 00000000			mainF DWORD ?
+
+ 00000000			.CODE
+
+ 00000000			PF PROC X: DWORD
+ 00000003  E8 00000000 E		call RandNum
+ 00000008  50				push eax
+ 00000009  8F 05 0000000C R		pop PFL
+ 0000000F  FF 35 0000000C R		push PFL
+ 00000015  E8 00000000 E		call WriteInConsoleUnint
+ 0000001A  FF 35 0000000C R		push PFL
+ 00000020  FF 75 08			push X
+ 00000023  58				pop eax
+ 00000024  5B				pop ebx
+ 00000025  03 C3			add eax, ebx
+ 00000027  50				push eax
+ 00000028  FF 35 00000000 R		push L0
+ 0000002E  58				pop eax
+ 0000002F  5B				pop ebx
+ 00000030  F7 E3			mul ebx
+ 00000032  50				push eax
+ 00000033  8F 05 00000008 R		pop PFY
+ 00000039  FF 35 00000008 R		push PFY
+ 0000003F  FF 35 00000004 R		push L1
+ 00000045  5B				pop ebx
+ 00000046  58				pop eax
+ 00000047  D1 E0			shl eax, 1
+ 00000049  50				push eax
+ 0000004A  8F 05 00000008 R		pop PFY
+ 00000050  FF 35 00000008 R		push PFY
+ 00000056  8F 05 00000000 R		pop ret_PF
+				ret
+ 00000060			PF ENDP
+
+ 00000060			SF PROC M: DWORD
+ 00000063  FF 35 00000000 R		push L0
+ 00000069  FF 75 08			push M
+ 0000006C  E8 00000000 E		call Unicode
+ 00000071  50				push eax
+ 00000072  FF 35 00000008 R		push L2
+ 00000078  58				pop eax
+ 00000079  5B				pop ebx
+ 0000007A  F7 E3			mul ebx
+ 0000007C  50				push eax
+ 0000007D  58				pop eax
+ 0000007E  5B				pop ebx
+ 0000007F  03 C3			add eax, ebx
+ 00000081  50				push eax
+ 00000082  8F 05 00000010 R		pop SFN
+ 00000088  FF 35 00000010 R		push SFN
+ 0000008E  FF 35 0000000C R		push L3
+ 00000094  5B				pop ebx
+ 00000095  58				pop eax
+ 00000096  D1 E8			shr eax, 01
+ 00000098  50				push eax
+ 00000099  8F 05 00000010 R		pop SFN
+ 0000009F  FF 35 00000010 R		push SFN
+ 000000A5  8F 05 00000004 R		pop ret_SF
+				ret
+ 000000AF			SF ENDP
+
+ 000000AF			main PROC
+ 000000AF			START:
+ 000000AF  FF 35 00000010 R		push L4
+ 000000B5  8F 05 00000014 R		pop mainA
+ 000000BB  B9 00000002			mov ecx, 2
+ 000000C0			CYRCLE110:
+ 000000C0  51			push ecx
+ 000000C1  FF 35 00000014 R		push mainA
+ 000000C7  FF 35 00000014 R		push L5
+ 000000CD  58				pop eax
+ 000000CE  5B				pop ebx
+ 000000CF  03 C3			add eax, ebx
+ 000000D1  50				push eax
+ 000000D2  8F 05 00000014 R		pop mainA
+ 000000D8  59			pop ecx
+ 000000D9  E2 E5		LOOP CYRCLE110
+ 000000DB  FF 35 00000018 R		push L6
+ 000000E1  8F 05 00000018 R		pop mainB
+ 000000E7  FF 35 0000001C R		push L7
+ 000000ED  8F 05 0000001C R		pop mainC
+ 000000F3  FF 35 00000018 R		push mainB
+ 000000F9  E8 FFFFFF02			call PF
+ 000000FE  FF 35 00000000 R		push ret_PF
+ 00000104  8F 05 00000020 R		pop mainD
+ 0000010A  FF 35 0000001C R		push mainC
+ 00000110  E8 FFFFFF4B			call SF
+ 00000115  FF 35 00000004 R		push ret_SF
+ 0000011B  8F 05 00000024 R		pop mainE
+ 00000121  FF 35 00000024 R		push L8
+ 00000127  8F 05 00000028 R		pop mainF
+ 0000012D  FF 35 00000014 R		push mainA
+ 00000133  E8 00000000 E		call WriteInConsoleUnint
+ 00000138  FF 35 00000020 R		push mainD
+ 0000013E  E8 00000000 E		call WriteInConsoleUnint
+ 00000143  FF 35 00000024 R		push mainE
+ 00000149  E8 00000000 E		call WriteInConsoleUnint
+ 0000014E  FF 35 00000028 R		push mainF
+ 00000154  E8 00000000 E		call WriteInConsoleUnint
+
+ 00000159  FF 35 00000028 R		push L9
+ 0000015F  E8 00000000 E		call ExitProcess
+ 00000164			main ENDP
+
+				end main
+Microsoft (R) Macro Assembler Version 14.23.28106.4	    12/18/19 00:34:44
+SDA-2019asm.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 0000002C Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00002000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000002C Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000164 Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+PF . . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000060 Public STDCALL
+  X  . . . . . . . . . . . . . .	DWord	 bp + 00000008
+RandNum  . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SF . . . . . . . . . . . . . . .	P Near	 00000060 _TEXT	Length= 0000004F Public STDCALL
+  M  . . . . . . . . . . . . . .	DWord	 bp + 00000008
+Unicode  . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+WriteInConsoleChar . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+WriteInConsoleUnint  . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 000000AF _TEXT	Length= 000000B5 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 000000AF _TEXT	
+  CYRCLE110  . . . . . . . . . .	L Near	 000000C0 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+L0 . . . . . . . . . . . . . . .	DWord	 00000000 CONST	
+L1 . . . . . . . . . . . . . . .	DWord	 00000004 CONST	
+L2 . . . . . . . . . . . . . . .	DWord	 00000008 CONST	
+L3 . . . . . . . . . . . . . . .	DWord	 0000000C CONST	
+L4 . . . . . . . . . . . . . . .	DWord	 00000010 CONST	
+L5 . . . . . . . . . . . . . . .	DWord	 00000014 CONST	
+L6 . . . . . . . . . . . . . . .	DWord	 00000018 CONST	
+L7 . . . . . . . . . . . . . . .	DWord	 0000001C CONST	
+L8 . . . . . . . . . . . . . . .	DWord	 00000024 CONST	
+L9 . . . . . . . . . . . . . . .	DWord	 00000028 CONST	
+PFL  . . . . . . . . . . . . . .	DWord	 0000000C _DATA	
+PFY  . . . . . . . . . . . . . .	DWord	 00000008 _DATA	
+SFN  . . . . . . . . . . . . . .	DWord	 00000010 _DATA	
+mainA  . . . . . . . . . . . . .	DWord	 00000014 _DATA	
+mainB  . . . . . . . . . . . . .	DWord	 00000018 _DATA	
+mainC  . . . . . . . . . . . . .	DWord	 0000001C _DATA	
+mainD  . . . . . . . . . . . . .	DWord	 00000020 _DATA	
+mainE  . . . . . . . . . . . . .	DWord	 00000024 _DATA	
+mainF  . . . . . . . . . . . . .	DWord	 00000028 _DATA	
+ret_PF . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+ret_SF . . . . . . . . . . . . .	DWord	 00000004 _DATA	
+
+	   0 Warnings
+	   0 Errors

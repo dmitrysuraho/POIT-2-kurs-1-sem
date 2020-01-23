@@ -1,0 +1,5 @@
+﻿  Source.cpp
+cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№11-12\Lab11-12\Lab11-12\Source.cpp(130,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№11-12\Lab11-12\Lab11-12\Source.cpp(134,18): warning C4101: netbios: неиспользованная локальная переменная
+  Lab11-12.vcxproj -> C:\Users\Dmitry\Desktop\labrab\КСИС\Лаб.Раб.№11-12\Lab11-12\Debug\Lab11-12.exe

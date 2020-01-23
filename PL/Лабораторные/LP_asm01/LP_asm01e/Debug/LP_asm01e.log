@@ -1,0 +1,5 @@
+﻿  Assembling LP_asm01e.asm...
+LP_asm01e.obj : error LNK2019: ссылка на неразрешенный внешний символ _getmax в функции _main@0
+LP_asm01e.obj : error LNK2019: ссылка на неразрешенный внешний символ _getmin в функции _main@0
+LP_asm01e.obj : error LNK2019: ссылка на неразрешенный внешний символ _WriteInConsole в функции _main@0
+C:\Users\Dmitry\Desktop\labrab\PL\Лабораторные\LP_asm01\Debug\LP_asm01e.exe : fatal error LNK1120: неразрешенных внешних элементов: 3

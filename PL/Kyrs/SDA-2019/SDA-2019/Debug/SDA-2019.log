@@ -1,0 +1,24 @@
+﻿  CodeGen.cpp
+  Error.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\Error.cpp(51,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  FST.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\Error.cpp(62,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  GRB.cpp
+  In.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\FST.cpp(61,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  IT.cpp
+  LEX.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\In.cpp(24,16): warning C4101: code: неиспользованная локальная переменная
+  Log.cpp
+  LT.cpp
+  Main.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\LEX.cpp(36,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  MFST.cpp
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\Main.cpp(323,1): warning C4007: wmain: должен быть "__cdecl"
+  Out.cpp
+  Parm.cpp
+  PolishNotation.cpp
+  Semant.cpp
+  Создание кода...
+C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\SDA-2019\MFST.cpp(237,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  SDA-2019.vcxproj -> C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\Debug\SDA-2019.exe

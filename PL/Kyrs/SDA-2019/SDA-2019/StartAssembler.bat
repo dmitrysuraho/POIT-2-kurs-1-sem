@@ -1,0 +1,1 @@
+@C:\Users\Dmitry\Desktop\labrab\PL\Kyrs\SDA-2019\Debug\SDA-2019asm
